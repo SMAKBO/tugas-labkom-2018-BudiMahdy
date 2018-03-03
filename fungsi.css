@@ -1,3 +1,7 @@
-h1 { font-family: pacifico;
-	font-size: 50px
+h1 { 	font-family: pacifico
+		;font-size: 75px;
+		font-style: italic;
+}
+p {		font-family: nanum pen script
+		;font-size: 20px
 }
