@@ -6,8 +6,29 @@ p {font-family: Mukta Mahee ;
 	font-size : 15px;
 }
 
-p {text-align: justify;
-		  text-indent: 1in;
-		  padding-left: 20px;
-		  padding right:50px;
+p { text-indent: 1in;
+	 padding-left: 20px;
+	 padding right:20px;
 }
+
+
+ h1	{font-family: Pacifico;
+ 	font-size: 60px;
+	text-align: 
+	center;	
+	font-color: gray;
+	border-style: double;
+ 
+ }
+
+ h1 {border: solid; 
+ 	background-color: red;
+
+ }
+
+ p {border: dashed;
+ 	background-color: green
+
+ }
+
+ body {background-color: yellow}
