@@ -1,12 +1,18 @@
 h1	{	font-family: Pacifico 
 		; font-size: 75PX
 		; font-style: italic;
-
+		text-align: center;
+		border-style: dashed;
 }
 
-p{ font-family: Shadows Into Light ;
+p{ font-family: Oswald ;
 		font-size: 30px ;
 
 
+
+}
+
+
+body { background-color:  	#696969;
 
 }
