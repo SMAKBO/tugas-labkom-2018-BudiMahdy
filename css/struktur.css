@@ -1,1 +1,19 @@
-h1 {font-family: pacifico; font-size: 50px}
+
+h1 {font-family: pacifico; font-size: 70px}
+#firstHeading	{
+	background-color: gray;
+} 
+.nama	{
+	background-color: red;
+}
+body {
+	background-color: #DCD8D8;
+	margin-right: 50px; 
+	margin-left: 50px;
+}
+td {
+	font-family: Caveat Brush;
+}
+.table-bordered {
+	color: black;
+}
