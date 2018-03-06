@@ -1,9 +1,10 @@
 h1	{font-family: Pacifico ;
-	 font-size: 50px;
+	 font-size: 70px;
 
 }
 p {font-family: Mukta Mahee ;
 	font-size : 15px;
+	color: white;
 }
 
 p { text-indent: 1in;
@@ -31,4 +32,5 @@ p { text-indent: 1in;
 
  }
 
- body {background-color: yellow}
+ body {background-color: #DCD8D8}
+
