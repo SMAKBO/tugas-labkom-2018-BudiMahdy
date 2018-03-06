@@ -1,5 +1,5 @@
 
-body {background-color: #dcd8d8;}
+body {background-color: #DCD8D8;}
 
 h2 {color: #cc0000;
     text-align: center; font-family: verdana;}
@@ -19,7 +19,7 @@ td, th {
     padding: 8px;
 }
 
-tr:nth-child(even) {
+tr: nth-child(even) {
     background-color: #dddddd;
 }
 
