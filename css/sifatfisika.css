@@ -1,18 +1,30 @@
 h1	{	font-family: Pacifico 
-		; font-size: 75PX
+		; font-size: 70PX
 		; font-style: italic;
 		text-align: center;
-		border-style: dashed;
-}
+		border-bottom: 6px solid black;
 
-p{ font-family: Oswald ;
-		font-size: 30px ;
 
 
 
 }
 
+p{ font-family: Caveat Brush ;
+		font-size: 35px ;
+		word-break: break-word;
+		color: black;
 
-body { background-color:  	#696969;
+
+
+
+}
+
+
+body { background-color: #dcd8d8;
+	margin-right: 50px;
+	margin-left: 50px;
+
+
+
 
 }
