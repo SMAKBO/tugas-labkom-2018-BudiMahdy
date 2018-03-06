@@ -1,20 +1,29 @@
 h1	{font-family: Pacifico;
-	font-size: 75px;
+	font-size: 70px;
 	text-align: center;
-	font-color: gray;
-	border-style: double;
+	border: double;
+	border-color: pink;
+	background-color: pink;
 
 
 
 }
 
-p { font-family: Advent Pro ;
+p { font-family: Caveat Brush ;
 	font-size: 25px;
+	color: black;
+	word-wrap: break-word;
+	border: dashed;
+	border-color: pink;
+	background-color: pink;
 	
 
 
 }
 
-body { background-color: #ccd9ff;
+body { background-color: #dcd8d8;
+		margin-right: 50px;
+		margin-left: 50px;
+
 
 }
