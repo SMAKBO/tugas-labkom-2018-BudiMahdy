@@ -3,13 +3,17 @@ h1	{font-family: Pacifico ;
 
 }
 p {font-family: Caveat Brush;
-	font-size : 15px;
+	font-size : 20px;
 	color: white;
-}
+	text-indent: 1in;
+	padding-left: 50px;
+	padding right:50px;
+	border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+ 	background-color: green;
 
-p { text-indent: 1in;
-	 padding-left: 50px;
-	 padding right:50px;
 }
 
 
@@ -19,18 +23,11 @@ p { text-indent: 1in;
 	center;	
 	font-color: gray;
 	border-style: double;
- 
- }
-
- h1 {border: solid; 
+ 	border: solid; 
  	background-color: red;
 
  }
 
- p {border: dashed;
- 	background-color: green
-
- }
 
  body {background-color: #DCD8D8}
 
@@ -40,3 +37,14 @@ p { text-indent: 1in;
 	color: white;
 }
 
+
+
+footer	{font-family: Caveat Brush;
+		 text-align: center;
+		 color: white;
+
+}
+
+footer	{
+	background-color: black;
+}
