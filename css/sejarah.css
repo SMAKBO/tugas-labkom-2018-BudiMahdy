@@ -1,18 +1,23 @@
 h1	{font-family: Pacifico ;
 	 font-size: 70px;
+	 margin-left : 50px
+	;margin-right: 50px;
 
 }
+
 p {font-family: Caveat Brush;
 	font-size : 20px;
-	color: white;
+	color: black;
 	text-indent: 1in;
-	padding-left: 50px;
-	padding right:50px;
+	padding-left: 30px;
+	padding right:30px;
+	margin-left: 50px;
+	margin-right:50px;
 	border-top-style: dashed;
     border-right-style: solid;
     border-bottom-style: dashed;
     border-left-style: solid;
- 	background-color: green;
+ 	background-color: #80ffdf;
 
 }
 
@@ -24,7 +29,7 @@ p {font-family: Caveat Brush;
 	font-color: gray;
 	border-style: double;
  	border: solid; 
- 	background-color: red;
+ 	background: linear-gradient(to bottom, #ffffff 0%, #ff0000 100%);
 
  }
 
@@ -42,6 +47,8 @@ p {font-family: Caveat Brush;
 footer	{font-family: Caveat Brush;
 		 text-align: center;
 		 color: white;
+		 margin-left: 20px;
+		 margin-right:20px;
 
 }
 
