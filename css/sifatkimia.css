@@ -2,28 +2,42 @@ h1	{font-family: Pacifico;
 	font-size: 70px;
 	text-align: center;
 	border: double;
-	border-color: pink;
-	background-color: pink;
+	border-color: black;
+	background-color: #b8b894;
 
 
 
 }
 
-p { font-family: Caveat Brush ;
-	font-size: 25px;
-	color: black;
-	word-wrap: break-word;
-	border: dashed;
-	border-color: pink;
-	background-color: pink;
-	
-
-
+.huruf	{
+	font-family: overlock;
+	font-size: 23px;
+	background-color: #b8b894;
 }
 
-body { background-color: #dcd8d8;
+footer	{
+	background-color: #514B4B;
+
+}
+.footer	{
+	font-family: Lobster Two;
+	text-align: center;
+	background-color: #514B4B;
+}
+
+body { background-color:#d9d9d9 ;
 		margin-right: 50px;
 		margin-left: 50px;
 
 
+}
+
+.navbar {
+	font-family: Bangers;
+
+}
+
+.nav-item	{
+	margin-right:23px; 
+	margin-left:23px;
 }
