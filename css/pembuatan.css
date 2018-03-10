@@ -27,3 +27,7 @@ footer {font-family:lobster two;
 
 .navbar {font-family: Bangers
 }
+.nav-item	{
+	margin-right:23px; 
+	margin-left:23px;
+}
