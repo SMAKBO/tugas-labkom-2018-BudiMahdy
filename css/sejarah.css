@@ -1,11 +1,11 @@
-h1	{font-family: Pacifico ;
+h1	{font-family: Lobster ;
 	 font-size: 70px;
 	 margin-left : 50px
 	;margin-right: 50px;
 
 }
 
-p {font-family: Caveat Brush;
+p {font-family: Karma;
 	font-size : 20px;
 	color: black;
 	text-indent: 1in;
@@ -22,7 +22,7 @@ p {font-family: Caveat Brush;
 }
 
 
- h1	{font-family: Pacifico;
+ h1	{font-family: Lobster;
  	font-size: 60px;
 	text-align: 
 	center;	
@@ -37,14 +37,15 @@ p {font-family: Caveat Brush;
  body {background-color: #DCD8D8}
 
  footer	{
-	font-family: caveat Brush;
+	font-family: Lobster two;
 	text-align: center;
 	color: white;
+	background-color: #514B4B
 }
 
 
 
-footer	{font-family: Caveat Brush;
+footer	{font-family: Lobster two;
 		 text-align: center;
 		 color: white;
 		 margin-left: 20px;
@@ -52,6 +53,15 @@ footer	{font-family: Caveat Brush;
 
 }
 
-footer	{
-	background-color: black;
+.navbar {font-family: Bangers
+
 }
+
+.footer	{
+	font-family: Lobster Two;
+	text-align: center;
+	background-color: #514B4B;
+}
+
+
+
