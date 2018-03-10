@@ -3,9 +3,9 @@
 }
 body	{
 	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
 	background-color: #DCD8D8;
-	margin-right:50px; 
-	margin-left	:50px;
 }
 .card-title	{
 	font-family: Lobster Two;
@@ -36,9 +36,4 @@ footer	{
 	font-size: 50px;
 	text-align: center;
 	margin: 5%;
-}
-
-.nav-item	{
-	margin-right:35px; 
-	margin-left:35px;
 }
