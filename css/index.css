@@ -2,38 +2,47 @@
 	background-color: gray;
 }
 body	{
-	margin-top: 50px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-top: 100px;
 	background-color: #DCD8D8;
+	margin-right:50px; 
+	margin-left	:50px;
 }
 .card-title	{
-	font-family: Lobster Two;
+	font-family: Lobster;
 	font-size: 30px;
 }
 .card-group {
 	margin-top: 30px;
 }
-.footer	{
-	font-family: Bowlby One SC;
-	text-align: center;
-	color: white;
-}
-
 footer	{
+	background-color: #514B4B;
+
+}
+.footer	{
+	font-family: Lobster Two;
+	text-align: center;
 	background-color: #514B4B;
 }
 .card-body	{
 	text-align: center;
 }
 .card-text	{
-	font-family: Unica One;
+	font-family: Karma;
 	font-size: 20px;
 
 }
 .ban 	{
-	font-family: Kadwa;
+	font-family:Lobster;
 	font-size: 50px;
 	text-align: center;
 	margin: 5%;
+}
+.navbar {
+	font-family: Bangers;
+
+}
+
+.nav-item	{
+	margin-right:23px; 
+	margin-left:23px;
 }
