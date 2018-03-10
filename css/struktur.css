@@ -1,5 +1,5 @@
 
-h1 {font-family: pacifico; font-size: 70px}
+h1 {font-family: lobster; font-size: 70px}
 #firstHeading	{
 	background-color: gray;
 } 
@@ -14,6 +14,26 @@ body {
 td {
 	font-family: Caveat Brush;
 }
-.table-bordered {
-	color: black;
+footer	{
+	background-color: #514B4B;
+
+}
+.footer	{
+	font-family: Lobster Two;
+	text-align: center;
+	background-color: #514B4B;
+}
+.navbar	{font-family: Bangers;
+
+}
+
+.nav-item	{
+	margin-right:23px; 
+	margin-left:23px;
+}
+tbody	{
+	background-color: #b8b894;
+}
+thead	{
+	background-color: #5c5c3d;
 }
