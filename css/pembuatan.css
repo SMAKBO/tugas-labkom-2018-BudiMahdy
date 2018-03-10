@@ -1,21 +1,24 @@
-h1 {font-family: Pacifico;
+h1 {font-family: Lobster;
 	font-size: 50px;
 	background-color:  #f2f2f2;
 	margin-right: 30px;
 	margin-left:30px
 }
-pre {font-family:caveat Brush;
+pre {font-family:karma;
 	font-size: 20px
 }
-h3 {font-family: caveat Brush;
+h3 {font-family: lobster;
 	font-size:30px
 }
 footer {background-color: grey
 }
 body {background-color: #dcd8d8
 }
-p {font-family:Caveat Brush;font-size: 20px
+p {font-family:karma;font-size: 20px
 }
 
-footer {font-family:caveat Brush;font-size:20px
+footer {font-family:lobster two;font-size:20px
+}
+
+.navbar {font-family: Bangers
 }
