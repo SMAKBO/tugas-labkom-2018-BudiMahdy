@@ -1,24 +1,29 @@
+body {background-color: #dcd8d8
+}
+
 h1 {font-family: Lobster;
 	font-size: 50px;
 	background-color:  #f2f2f2;
 	margin-right: 30px;
 	margin-left:30px
 }
-pre {font-family:karma;
-	font-size: 20px
+p {font-family:karma;
+   font-size: 20px
 }
 h3 {font-family: lobster;
 	font-size:30px
 }
-footer {background-color: grey
-}
-body {background-color: #dcd8d8
-}
-p {font-family:karma;font-size: 20px
+pre {font-family:karma;
+	font-size: 20px
 }
 
-footer {font-family:lobster two;font-size:20px
+footer {font-family:lobster two;
+	    font-size:20px;
+	    background-color: #514B4B;
+	    margin-right: 20px;
+	    margin-left: 20px;
 }
+
 
 .navbar {font-family: Bangers
 }
