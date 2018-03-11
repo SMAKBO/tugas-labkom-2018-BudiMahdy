@@ -5,6 +5,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Karma|Lobster|Lobster+Two" rel="stylesheet"> 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	 <!-- navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">Organik Pedia</a>
@@ -47,7 +50,7 @@
 </head>
 <body>
   <!-- logo -->
-    <center><img src="img/logo.png" width="500px" height="500px"></center>
+    <center><img id="gambar" src="img/logo.png" width="500px" height="500px"></center>
   <!-- logo -->
 
 <!-- slogan -->
@@ -57,14 +60,14 @@
 <!-- slogan end --> 
 
  <div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src="img/sejarah.jpg" alt="Card image cap">
+ <div class="card">
+    <img class="card-img-top" src=".." alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">History</h5>
+      <h5 class="card-title">Organik Pedia</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
     <div class="card-footer">
-      <center><a href="sejarah.html" class="btn btn-primary">Read More</a></center>
+      <center><a href="#" class="btn btn-primary">Read More</a></center>
     </div>
   </div>
   <div class="card">
@@ -91,7 +94,7 @@
 
 <br>
 
-<div class="card-group">
+<div id="card1" class="card-group">
   <div class="card">
     <img class="card-img-top" src="img/fisika.jpg" alt="Card image cap">
     <div class="card-body">
@@ -126,15 +129,15 @@
 
 <br>
 
-  <div class="card-group">
-  <div class="card">
-    <img class="card-img-top" src=".." alt="Card image cap">
+  <div id="card2" class="card-group">
+   <div class="card">
+    <img class="card-img-top" src="img/sejarah.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Organik Pedia</h5>
+      <h5 class="card-title">History</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
     </div>
     <div class="card-footer">
-      <center><a href="#" class="btn btn-primary">Read More</a></center>
+      <center><a href="sejarah.html" class="btn btn-primary">Read More</a></center>
     </div>
   </div>
   <div class="card">
@@ -158,10 +161,21 @@
     </div>
   </div>
 </div>
-	
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script>
+  $(function() {
+
+    $("#card1").fadeIn(1000);
+    $("#card2").fadeIn(1000);
+
+  });
+
+
+</script>	
+  
+
+  
 
 </body>
 
