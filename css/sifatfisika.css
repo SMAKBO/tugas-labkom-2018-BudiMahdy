@@ -26,17 +26,13 @@ footer	{
 }
 
 
-}
 
-p{ font-family: Karma ;
+p { font-family: Karma ;
 		font-size: 35px ;
 		word-break: break-word;
 		color: black;
-		border-right: solid;
-		border-bottom: solid;
-		border-left: solid;
-		border-top: solid;
 		text-indent: 1in;
+		border-style: solid;
 
 }
 
