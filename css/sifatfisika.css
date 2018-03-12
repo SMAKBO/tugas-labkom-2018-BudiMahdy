@@ -1,21 +1,42 @@
-h1	{	font-family: Pacifico 
+h1	{	font-family: Lobster 
 		; font-size: 70PX
 		; font-style: italic;
 		text-align: center;
-		border-bottom: 6px solid black;
+		border: double;
+		border-color: black;
+		background-color: gray;
 
+}
 
+.huruf	{
+	font-family: overlock;
+	font-size: 23px;
+	background-color: #b8b894;
+}
+
+footer	{
+	background-color: #514B4B;
+
+}
+
+.footer	{
+	font-family: Lobster Two;
+	text-align: center;
+	background-color: #514B4B;
+}
 
 
 }
 
-p{ font-family: Caveat Brush ;
+p{ font-family: Karma ;
 		font-size: 35px ;
 		word-break: break-word;
 		color: black;
-
-
-
+		border-right: solid;
+		border-bottom: solid;
+		border-left: solid;
+		border-top: solid;
+		text-indent: 1in;
 
 }
 
@@ -27,4 +48,17 @@ body { background-color: #dcd8d8;
 
 
 
+}
+
+
+.navbar {
+	font-family: Bangers;
+
+}
+
+
+
+.nav-item	{
+	margin-right:23px; 
+	margin-left:23px;
 }
