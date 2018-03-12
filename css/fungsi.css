@@ -1,27 +1,36 @@
-html { 	text-indent: 1in
-		;padding-left : 50px
-		;padding-right:50px;
+h1 			{ 	font-family: Lobster
+			;font-size: 50px;
+			font-style: italic;
+			color: black;
 }
-h1 	{ 	font-family: pacifico
-		;font-size: 70px;
-		font-style: italic;
-		color: white;
+h2			{	font-family: Lobster
+			;font-size: 35px;
+			font-style: italic;
+			color: black;
 }
-p 	{	font-family: Caveat Brush
-		;font-size : 20px
-		;font-color:white
-		;border: solid black 2px
-		;background-color: yellow;
+p 			{	font-family: overlock
+			;font-size : 17px
+			;font-color:white
+			;border: solid black 2px
+			;background-color: #b8b894;
 }
-h1 	{	border: solid black
-		;background-color: black;
+h1 			{	border: solid black
+			;background-color: gray;
 
  }
-body{	background-color: #DCD8D8;
+body		{ 	background-color:#d9d9d9 ;
+			margin-right: 50px;
+			margin-left: 50px;
 }
-footer	{
-	font-family: Bowlby One SC;
-	text-align: center;
-	color: white;
+footer		{	background-color: #514B4B;
 }
+.footer		{	font-family: Lobster Two;
+			text-align: center;
+			background-color: #514B4B;
+}
+.navbar 	{	font-family: Bangers;
 
+}
+.nav-item	{	margin-right:23px; 
+			margin-left:23px;
+}
