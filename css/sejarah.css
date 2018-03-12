@@ -17,7 +17,7 @@ p {font-family: Karma;
     border-right-style: solid;
     border-bottom-style: dashed;
     border-left-style: solid;
- 	background-color: #80ffdf;
+ 	background-color: #b8b894;
 
 }
 
@@ -29,27 +29,19 @@ p {font-family: Karma;
 	font-color: gray;
 	border-style: double;
  	border: solid; 
- 	background: linear-gradient(to bottom, #ffffff 0%, #ff0000 100%);
+ 	background: gray
 
  }
 
 
  body {background-color: #DCD8D8}
 
- footer	{
-	font-family: Lobster two;
-	text-align: center;
-	color: white;
-	background-color: #514B4B
-}
-
-
 
 footer	{font-family: Lobster two;
 		 text-align: center;
-		 color: white;
 		 margin-left: 20px;
 		 margin-right:20px;
+		 background-color: #514B4B
 
 }
 
@@ -63,5 +55,9 @@ footer	{font-family: Lobster two;
 	background-color: #514B4B;
 }
 
+.nav-item	{
+	margin-right:23px; 
+	margin-left:23px;
 
+}
 
