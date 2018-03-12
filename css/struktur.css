@@ -2,6 +2,7 @@
 h1 {font-family: lobster; font-size: 70px}
 #firstHeading	{
 	background-color: gray;
+	border: double;
 } 
 .nama	{
 	background-color: red;
