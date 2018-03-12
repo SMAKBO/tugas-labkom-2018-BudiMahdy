@@ -1,8 +1,14 @@
 
-body {background-color: lightblue;}
+h2  {font-family: Lobster;
+    font-size: 60px;
+    text-align: 
+    center; 
+    font-color: gray;
+    border-style: double;
+    border: solid; 
+    background: gray
 
-h1 {color: white;
-    text-align: center;}
+ }
 
 p {font-family: verdana;
     font-size: 20px;} 
@@ -10,7 +16,7 @@ p {font-family: verdana;
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 100%; align-items: center
 }
 
 td, th {
@@ -21,4 +27,20 @@ td, th {
 
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+
+body {background-color: #DCD8D8}
+
+.navbar {font-family: Bangers}
+
+.footer {
+    font-family: Lobster Two;
+    text-align: center;
+    background-color: #514B4B;
+}
+
+.nav-item   {
+    margin-right:23px; 
+    margin-left:23px;
+
 }
