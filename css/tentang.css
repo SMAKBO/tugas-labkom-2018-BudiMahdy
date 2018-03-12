@@ -1,0 +1,62 @@
+.nav-item	{
+	margin-right:23px;
+	margin-left:23px;
+}
+.navbar {
+	font-family: Bangers;
+
+
+}
+.parallax {
+         height: 700px;
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+ }
+.caption {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         width: 100%;
+         text-align: center;
+         font-family: Arvo;
+
+}
+.caption span.border {
+         background-color: #111;
+         color: #F5B041;
+         padding: 18px;
+         font-size: 30px;
+         letter-spacing: 5px;
+         border-radius: 10px;
+}
+.container	{
+	background-color: #FFA514;
+}
+body	{
+	background-color: #DCD8D8;
+}
+.gambar	{
+	border: solid black 5px;
+	border-radius: 10px;
+}
+.featurette-heading	{
+	font-family: 'Coda Caption', sans-serif;
+}
+p.lead	{
+	font-family: Fjalla One;
+	margin-top: 50px;
+	color: #8B8E93;
+}
+h1.judul	{
+	font-family: 'Audiowide', cursive;
+	font-size: 60px;
+	font-weight: bold;
+
+}
+#carouselExampleControls	{
+	border: solid black 20px;
+	border-radius: 12px;
+	border-color: #8B8E93;
+}
