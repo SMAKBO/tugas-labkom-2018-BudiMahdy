@@ -2,10 +2,11 @@ body {background-color: #dcd8d8
 }
 
 h1 {font-family: Lobster;
-	font-size: 50px;
-	background-color:  #f2f2f2;
+	font-size: 70px;
+	background-color:  gray;
 	margin-right: 30px;
-	margin-left:30px
+	margin-left:30px;
+	border:double;
 }
 p {font-family:karma;
    font-size: 20px
