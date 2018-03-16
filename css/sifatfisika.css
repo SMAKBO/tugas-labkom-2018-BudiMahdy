@@ -32,8 +32,8 @@ p { font-family: Karma ;
 		word-break: break-word;
 		color: black;
 		text-indent: 1in;
-		border-style: solid;
-
+		border-top: solid;
+		border-width: 10px;
 }
 
 
