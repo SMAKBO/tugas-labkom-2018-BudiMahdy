@@ -6,49 +6,47 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Bangers|Karma|Lobster|Lobster+Two" rel="stylesheet">
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-
-	 <!-- navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Organik Pedia</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="pengertian.html">Definition</a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="sejarah.html">History</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="struktur.html">Structure</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sifatkimia.html">Chemical Properties</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="sifatfisika.html">Physical Properties</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pembuatan.html">Preparation</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="bahaya.html">Hamrfulness</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="fungsi.html">Function</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    <!-- navbar end -->
 </head>
 <body>
+	<!-- navbar -->
+		 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			 <a class="navbar-brand" href="#">Organik Pedia</a>
+			 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				 <span class="navbar-toggler-icon"></span>
+			 </button>
+			 <div class="collapse navbar-collapse" id="navbarCollapse">
+				 <ul class="navbar-nav mr-auto">
+					 <li class="nav-item">
+						 <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					 </li>
+						<li class="nav-item">
+						 <a class="nav-link" href="definisi.html">Definition</a>
+					 </li>
+						<li class="nav-item">
+						 <a class="nav-link" href="sejarah.html">History</a>
+					 </li>
+					 <li class="nav-item">
+						 <a class="nav-link" href="struktur.html">Structure</a>
+					 </li>
+					 <li class="nav-item">
+						 <a class="nav-link" href="sifatkimia.html">Chemical Properties</a>
+					 </li>
+					 <li class="nav-item">
+						 <a class="nav-link" href="sifatfisika.html">Physical Properties</a>
+					 </li>
+					 <li class="nav-item">
+						 <a class="nav-link" href="pembuatan.html">Preparation</a>
+					 </li>
+					 <li class="nav-item">
+						 <a class="nav-link" href="bahaya.html">Hamrfulness</a>
+					 </li>
+					 <li class="nav-item">
+						 <a class="nav-link" href="fungsi.html">Function</a>
+					 </li>
+				 </ul>
+			 </div>
+		 </nav>
+	 <!-- navbar end -->
   <!-- logo -->
 		<div class="gambar">
 			  <center><img src="img/logo.png" width="500px" height="500px"></center>
@@ -65,10 +63,10 @@
     <img class="card-img-top" src="img/definisi.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Definition</h5>
-      <p class="card-text">.....</p>
+      <p class="card-text">....</p>
     </div>
     <div class="card-footer">
-      <center><a href="#" class="btn btn-primary">Read More</a></center>
+      <center><a href="definisi.html" class="btn btn-primary">Read More</a></center>
     </div>
   </div>
   <div class="card">
@@ -176,24 +174,29 @@
 <script>
 	window.sr = ScrollReveal();
 	sr.reveal('.gambar', {
-		duration: 2000,
+		duration: 1000,
 		origin:'top',
-		distance:'200px'
+		distance:'200px',
+		delay:500
 	});
 	sr.reveal('.ban', {
 		duration: 1000,
+		delay:500,
 		origin:'top',
-		delay: '1000',
 		distance:'300px'
 	});
 	sr.reveal('.card-group', {
 		duration: 1000,
-		origin:'top'
+		origin:'top',
 	});
 	sr.reveal('.btn-primary', {
-		duration: 1000,
-		delay:500,
+		duration: 500,
+		delay:200,
 		origin:'top'
+	});
+	sr.reveal('.navbar', {
+		duration: 500,
+		origin:'top',
 	});
 
 </script>
